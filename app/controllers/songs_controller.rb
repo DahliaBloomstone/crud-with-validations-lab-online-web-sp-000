@@ -1,7 +1,6 @@
 # rails g resource Song title:string released:boolean release_year:integer artist_name:string genre:string
 class SongsController < ApplicationController
   before_action :set_song!, only: [:show, :edit, :update, :destroy]
-
      def new
          @song = Song.new
      end
