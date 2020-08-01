@@ -1,4 +1,3 @@
-# Songs have a title, a string, and an artist_name, a string 
-# rails g resource Song title:string artist_name:string --no-test-framework
+rails g resource Song title:string released:boolean release_year:integer artist_name:string genre:string
 class SongsController < ApplicationController
 end
