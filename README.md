@@ -1,4 +1,4 @@
-rails g resource Song title:string released:boolean release_year:integer artist_name:string genre:string
+Run: rails g resource Song title:string released:boolean release_year:integer artist_name:string genre:string
 
 # CRUD With Validations Lab
 
